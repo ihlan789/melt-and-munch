@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Dimsum website frontend',
+  title: 'Melt & Munch',
   description: 'Generated with BLACKBOX AI Builder',
 }
 
