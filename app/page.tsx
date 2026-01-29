@@ -171,7 +171,7 @@ export default function DimsumWebsite() {
         <div className="container mx-auto flex justify-between items-center max-w-6xl">
           <div className="flex items-center gap-3">
             <img src="/img/logo.png" className="h-10 w-10 sm:h-12 sm:w-12 object-contain" alt="Logo" />
-            <h1 className="text-lg font-black uppercase tracking-tighter">Melt & Munch</h1>
+            <h1 className="text-lg font-black uppercase tracking-tighter">Daily Bites Co.</h1>
           </div>
           <Button variant="outline" className="relative border-[#d9a01e] text-[#d9a01e] rounded-2xl h-10 px-4" onClick={() => setIsCartOpen(true)}>
             <ShoppingCart className="w-5 h-5 mr-2" />
