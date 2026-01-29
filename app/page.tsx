@@ -157,14 +157,14 @@ export default function DimsumWebsite() {
     const subtotal = checkedItems.reduce((s, i) => s + i.price * i.quantity, 0)
     const itemsList = checkedItems.map(i => `• ${i.name} ${i.variantName ? `(${i.variantName})` : ''} x${i.quantity}`).join("\n")
     
-    const msg = `Halo Melt & Munch!\n\n*Data Pemesan:*\nNama: ${customerName}\nAlamat: ${address}\n\n*Pesanan:*\n${itemsList}\n\n*Total Tagihan:* ${formatPrice(subtotal)}`
+    const msg = `Halo Daily Bites Co.!\n\n*Data Pemesan:*\nNama: ${customerName}\nAlamat: ${address}\n\n*Pesanan:*\n${itemsList}\n\n*Total Tagihan:* ${formatPrice(subtotal)}`
     
     window.open(`https://wa.me/6285157745547?text=${encodeURIComponent(msg)}`, "_blank")
   }
 
   return (
     <div className="min-h-screen bg-[#fdfaf5] text-[#3d2622] font-sans">
-      <title>Melt & Munch | Katalog Menu</title>
+      <title>Daily Bites Co. | Katalog Menu</title>
       
       {/* HEADER */}
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-[#3d2622]/10 p-4">
